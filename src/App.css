@@ -1,0 +1,32 @@
+*{
+    background-color: aqua;
+}
+
+.App{
+    text-align: center;
+    margin: auto;
+}
+.App-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.App-counter{
+    font-weight: bold;
+    margin: 50px 30px;
+}
+.App-button{
+    justify-content: space-around;
+    margin: 7px;
+    padding: 5px;
+    border: none;
+    outline: none;
+   
+}
+
+.App-button:hover{
+    border-bottom: 1px solid black;
+  color: rgb(21, 21, 36);
+    cursor: pointer;
+    transform: scale(1.1111);
+    transition: .7s ease-in-out;
+    }
